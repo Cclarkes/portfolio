@@ -1,0 +1,51 @@
+.portfolio-container {
+    background: url('../media/overflow.jpg');
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-header {
+    font-family: 'Merriweather', serif;
+    margin-top: 0em;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+}
+
+.project {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 35vw;
+    width: 26vw;
+    border: 2px solid;
+    margin-top: 2vw;
+}
+
+.proj-image {
+    width: 26vw;
+    height: 22vw;
+}
+
+.proj-title {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    background-color: maroon;
+    padding-top: 0.2em;
+    margin: 0;
+}
+
+.icons {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: navy;
+}

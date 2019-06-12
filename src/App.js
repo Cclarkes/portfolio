@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/navbar';
+// import Navbar from './components/navbar';
 import Profile from './components/profile';
+import Portfolio from './components/portfolio';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <header className="App-header">
       </header>
       <Profile/>
+      <Portfolio/>
     </div>
   );
 }
