@@ -1,4 +1,9 @@
 .App {
     display: flex;
     flex-flow: column wrap;
+    font-size: calc(1em + 1vw);
+    background: url('./media/light-ring.jpg') no-repeat;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
 }
