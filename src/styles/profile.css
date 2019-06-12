@@ -1,0 +1,11 @@
+.profile-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10em;
+    width: 100%;
+}
+
+.profile {
+    width: 65%;
+    height: 65%;
+}
